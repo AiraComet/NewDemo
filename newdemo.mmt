@@ -1,0 +1,21 @@
+namespace http://mathhub.info/ODK/ActiveComputationDemo ❚
+
+theory Quantities : http://mathhub.info/MitM/Foundation/Units?UnitsExtended =
+	
+	lightspeed : QE Velocity ❘= 1.0 of mps ❘ # c ❙
+
+
+	
+theory EME : ?Quantities =
+	
+	energy : QE Energy ❘ = 2.31 of joule ❘ # E ❙
+	mass : QE Mass ❘ = 14.7 of kg ❘ # m ❙
+	
+	em2c : ⊦ E ≐ (m ⋅ (c ⋅ c)) +' (m ⋅ (c ⋅ c)) ❙
+	emc2 : ⊦ E ≐ m ⋅ (c ⋅ c) ❙
+	enone : ⊦E ≐ (m ⋅ (c ⋅ c)) -' (m ⋅ (c ⋅ c)) ❙
+	example : ⊦ E ≐ (2.31 + - 14.7 + - 14.7)of(kg *'' mps *'' mps) ❙
+	giant : ⊦ m ⋅ (c ⋅ c) ≐ (m ⋅ (c ⋅ c)) +' (m ⋅ (c ⋅ c)) -' (m ⋅ (c ⋅ c)) ❙
+
+
+	   
